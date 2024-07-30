@@ -1,4 +1,3 @@
 provider "aws" {
-  profile = "admin"
-  region  = "ap-south-1"
+  profile = var.AWS_PROFILE
 }
